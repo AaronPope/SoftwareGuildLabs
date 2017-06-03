@@ -2,28 +2,25 @@
 <html>
     <head>
         <title>Home | The Place to Be</title>
-        <!-- Latest compiled and minified CSS 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
--->
+        
+        <link type="text/css" rel="stylesheet" href="styles/restaurantStyles.css">
+        
         <style>   
-            .nav-item {
-                margin: 0 .5em;
-            }
-            
-            #hero, #description {
+/* Commented out to satisfiy Lab requirement of in-line styling for image */
+/*            #hero, */
+            #description {
                 width: 400px;
             }
-            
+
+/* Commented out to satisfiy Lab requirement of in-line styling for image */            
+/*
             #hero {
                 height: 150px;
             }
+*/
             
             #description {
                 margin: 3em auto;   
-            }
-            
-            #footer {
-                clear: both;
             }
         </style>
     </head>
@@ -31,7 +28,7 @@
     <body>
         <!-- Heading -->
         <center>
-            <h1>The Food Joint</h1>
+            <h1 id="page-header">The Food Joint</h1>
         </center>
         
         <!-- Nav Bar -->
@@ -44,7 +41,7 @@
         <!-- Hero Image -->
         <!-- 400px x 150 px -->
         <center>
-            <img id="hero" src="img/bacon.jpg" />
+            <img id="hero" src="img/bacon.jpg" style="height: 150px; width: 400px"/>
         </center>
         
         <!-- Restaurant Description -->
@@ -57,10 +54,12 @@ Nisi ut pork chop cillum aliqua. Ut sunt non, beef ribs consequat ground round s
         </p>
         
         <!-- Footer -->
-        <hr>
-        <center id="footer">
-            The Place to Be, Louisville, KY 40000<br>
-            502-555-5555
-        </center>
+        <div id="page-footer">
+            <hr>
+            <center>
+                The Place to Be, Louisville, KY 40000<br>
+                502-555-5555
+            </center>
+        </div>
     </body>
 </html>

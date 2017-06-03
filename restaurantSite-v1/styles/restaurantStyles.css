@@ -1,0 +1,8 @@
+#page-header, #page-footer {
+    font-family: cursive;
+    color: #444;
+}
+
+#page-footer {
+    background-color: lightgrey;
+}
