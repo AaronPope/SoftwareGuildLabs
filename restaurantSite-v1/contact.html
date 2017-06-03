@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Contact Us | The Place to Be</title>
         <style>
             input, select, textarea {
                 margin-top: .5em;
@@ -19,16 +19,33 @@
                 text-align: right;
             }
             
+            .nav-item {
+                margin: 0 .5em;
+            }
+            
             #submit {
                 margin-left: 21em;
+            }
+            
+            #footer {
+                clear: both;
             }
         </style>
     </head>
     
     <body>
         <!-- Heading -->
+        <center>
+            <h1>The Food Joint</h1>
+        </center>
         
         <!-- Nav Bar -->
+        <hr>
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="menu.html">Menu</a>
+        <a class="nav-item" href="contact.html">Contact Us</a>
+        <hr>
+        
         <form>
             <label>Name:</label>
             <input type="text" name="firstName"/>
@@ -70,5 +87,12 @@
             <input type="submit" id="submit" value="Send Request"/>
             
         </form>
+        
+        <!-- Footer -->
+        <hr>
+        <center id="footer">
+            The Place to Be, Louisville, KY 40000<br>
+            502-555-5555
+        </center>
     </body>
 </html>
