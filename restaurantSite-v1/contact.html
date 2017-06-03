@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            input, select, textarea {
+                margin-top: .5em;
+                margin-left: 2em;
+            }
+            
+            select {
+                width: 12em;
+            }
+
+            form label {
+                float: left;
+                width: 16em;
+                clear: left;
+                text-align: right;
+            }
+            
+            #submit {
+                margin-left: 21em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!-- Heading -->
+        
+        <!-- Nav Bar -->
+        <form>
+            <label>Name:</label>
+            <input type="text" name="firstName"/>
+            <br />
+            
+            <label>Email:</label>
+            <input type ="email" name="email"/>
+            <br/> 
+            
+            <label>Phone:</label>
+            <input type="tel" name="lastName"/>
+            <br/>
+            
+            <label>Reason for Inquiry:</label>
+                <select name="reason">
+                    <option value="catering" selected>Catering</option>
+                    <option value="privateParty">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            <br/>
+            
+             <label>Additional Information:</label>
+                <textarea name="additionalInfo"></textarea>
+            <br/>
+            
+            <label>Have you been to the restaurant?</label>
+                    <input type="radio" name="patronized" checked />No
+                    <input type="radio" name="patronized" />Yes
+            <br/>
+            
+            <label>Best day to contact you:</label>
+            <input class="day-of-week" type="checkbox" name="agreeToTOS" />M
+            <input class="day-of-week" type="checkbox" name="agreeToTOS" />T
+            <input class="day-of-week" type="checkbox" name="agreeToTOS" />W
+            <input class="day-of-week" type="checkbox" name="agreeToTOS" />Th
+            <input class="day-of-week" type="checkbox" name="agreeToTOS" />F
+            <br>
+            <input type="submit" id="submit" value="Send Request"/>
+            
+        </form>
+    </body>
+</html>
