@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Contact Us" Form</title>
+        
+
+        <style>
+            input, select, textarea {
+                margin-top: .35em;
+            }
+
+            form label {
+                float: left;
+                width: 25%;
+                padding-right: 2em;
+                clear: left;
+            }
+            
+            #terms-of-service-cb, #submit {
+                margin-left: 25%;
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <label>First Name:</label>
+            <input type="text" name="firstName"/>
+            <br />
+            
+            <label>Last Name:</label>
+            <input type="text" name="lastName"/>
+            <br/>
+            
+            <label>Email:</label>
+            <input type ="email" name="email"/>
+            <br/>    
+            
+            <label>Type of License:</label>
+                    <input type="radio" name="license" checked />Business
+                    <input type="radio" name="license" />Personal
+            <br/>
+            
+            <label>Reason:</label>
+                <select name="reason">
+                    <option>--- Select a Reason ---</option>
+                    <option value="softwareSupport">Software Support</option>
+                    <option value="hardwareSupport">Hardware Support</option>
+                    <option value="infoRequest">Information Request</option>
+                </select>
+            <br/>
+            
+            <label>Additional Information:</label>
+                <textarea name="additionalInfo"></textarea>
+            <br/>
+            <input type="checkbox" name="agreeToTOS" id="terms-of-service-cb" required/>I have read the terms of service <br>
+            <input type="submit" id="submit"/>
+            
+        </form>
+    </body>
+</html>
