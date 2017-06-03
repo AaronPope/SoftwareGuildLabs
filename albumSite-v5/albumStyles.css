@@ -1,5 +1,13 @@
-a:visited {
-    color: darkred;
+table {
+    background-color: #efefef;   
+}
+
+tr th {
+    background-color: lightgrey;
+}
+
+td {
+    font-style: italic;
 }
 
 .artist-name {
@@ -15,4 +23,18 @@ a:visited {
     background-repeat: no-repeat;
     width: 40%;
     height: 300px;
+}
+
+#band-name {
+    text-decoration: none;
+    background-color: red;
+}
+
+#band-name:visited {
+    color: darkred;
+}
+
+#band-name:hover {
+    text-decoration: underline;
+    background: orange;
 }
