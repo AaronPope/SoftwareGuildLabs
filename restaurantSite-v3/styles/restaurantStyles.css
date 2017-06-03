@@ -1,5 +1,10 @@
+#main {
+    background-color: rgba(245, 180, 0, .25);
+    padding: 20px 0;
+}
+
 #page-header, #page-footer {
-    font-family: cursive;
+    font-family: Oswald;
     color: #444;
 }
 
