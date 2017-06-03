@@ -14,4 +14,13 @@
 
 .nav-item {
     margin: 0 .5em;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.nav-item:visited {
+    color: orangered;
 }
