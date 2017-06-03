@@ -1,0 +1,35 @@
+// Reference Object
+#div1 {
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
+TOTAL HEIGHT
+= height + top-margin + bottom-margin + top-padding +bottom-padding + top-border + bottom-border
+= 150    + 20         + 20            + 10          + 10            + 1          + 1
+= 150 + 31 + 31
+= 150 + 62
+= 212
+
+TOTAL WIDTH
+= width + left-margin + right-margin + left-padding + right-padding + left-border + right-border
+= 400   + 20          + 20           + 10           + 10            + 1           + 1
+= 400 + 62
+= 462
+
+
+BROWSER CALCULATED HEIGHT
+= top-margin + top-border + top-padding + height + bottom-padding + bottom-border + bottom-margin
+= 20         + 1          + 10          + 150    + 10             + 1             + 20
+= 31 + 150 + 31
+= 212
+
+BROWSER CALCULATED WIDTH
+= left-margin + left-border + left-padding + width + right-padding + right-border + right-margin
+= 20          + 1           + 10           + 400   + 10            + 1            + 20
+= 31 + 400 + 31
+= 462
