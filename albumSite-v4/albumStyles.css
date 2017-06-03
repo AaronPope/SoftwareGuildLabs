@@ -1,3 +1,18 @@
 a:visited {
     color: darkred;
 }
+
+.artist-name {
+    font-style: italic;
+}
+
+#album-title, #band-members {
+    font-family: Oswald;
+}
+
+#album-art {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/e/e1/Soli4.jpg");
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 300px;
+}
